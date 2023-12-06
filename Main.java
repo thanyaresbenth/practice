@@ -13,7 +13,7 @@ public class Main {
             String input = scanner.nextLine();
             listInput.add(input);
         }
-        System.out.println("input");
+
         int num[][]=new int[listInput.size()][];
         int mark[][]=new int[listInput.size()][];
 
@@ -26,10 +26,9 @@ public class Main {
             for(int columnArr =0;columnArr<newArr.length;columnArr++){
                 int value = Integer.parseInt(newArr[columnArr]);
                 num[rowArr][columnArr]=value;
-                System.out.print(num[rowArr][columnArr]+" ");
+
 
             }
-            System.out.println(" ");
 
 
         }
@@ -51,7 +50,7 @@ public class Main {
          }
 
         int sum = disPlaySum(mark);
-        System.out.println("output "+sum);
+        System.out.println(sum);
 
     }
     public static Integer findMaxRow(int row,int column,int num[][],int max1,int mark[][]){
