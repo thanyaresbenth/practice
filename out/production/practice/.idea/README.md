@@ -1,3 +1,3 @@
 #command run
 javac Main.java
-java Main input.text
+java Main input.txt
