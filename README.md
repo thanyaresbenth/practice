@@ -1,5 +1,5 @@
 #command run code
-#<br/>
+<br/>
 javac  Main.java
-#<br/>
+<br/>
 java Main input.txt
